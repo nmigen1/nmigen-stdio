@@ -23,7 +23,7 @@ setup(
     #long_description="""TODO""",
     license="BSD",
     setup_requires=["setuptools_scm"],
-    install_requires=["nmigen"],
+    install_requires=["nmigen>=0.0,<=0.5"],
     packages=find_packages(),
     project_urls={
         "Source Code": "https://github.com/m-labs/nmigen-stdio",
